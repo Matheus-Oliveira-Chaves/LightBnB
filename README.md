@@ -1,4 +1,25 @@
-# LightBnB
+# LightBnB Project
+
+A Simple Airbnb clone that uses a server-side JavaScript to display the information from queries to web pages via SQL queries
+
+
+## Getting Started
+
+1. [Fork and Clone](https://github.com/Matheus-Oliveira-Chaves/LightBnB) this repository onto your local device.
+2. Install dependencies using the `npm install` command.
+3. start postgresql server using the `startpostgres` command.
+4. Start the web server using the `npm run local` command. The app will be served at <http://localhost:3080/>.
+5. Go to <http://localhost:3080/> in your browser.
+
+
+## Dependencies
+
+- express
+- nodemon
+- bcrypt
+- cookie-session
+- pg 
+
 
 ## Project Structure
 
@@ -36,7 +57,6 @@
 ├── .gitignore
 ├── package-lock.json
 ├── package.json
-├── README.md
 └── server.js
 ```
 
@@ -53,3 +73,7 @@
 * `routes` contains the router files which are responsible for any HTTP requests to `/users/something` or `/api/something`. 
 * `styles` contains all of the sass files. 
 * `server.js` is the entry point to the application. This connects the routes to the database.
+
+# ERD
+
+!["ERD structure"](https://github.com/Matheus-Oliveira-Chaves/LightBnB/blob/master/ERD.png)
